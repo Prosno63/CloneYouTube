@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="resources/Logo.png" type="image/x-icon">
+    <title>Blog Page</title>
+</head>
+
+<body>
+
+    <h1 class="text-4xl font-bold text-center mt-3 ">#BlogPost</h1>
+
+    <h1 class="text-2xl font-bold m-6 p-2 border">Var, let and const:</h1>
+    <p class=" m-6 border p-2 text-black bg-slate-400 rounded shadow-xl">
+        <span class="font-bold text-2xl">v</span>ar variables are function-scoped, which means they can be accessed from
+        anywhere within the function in which
+        they are declared. They can also be re-declared and updated multiple times. <br>
+
+        <span class="font-bold text-2xl">l</span>et variables are block-scoped, which means they can only be accessed
+        from within the block in which they are
+        declared. They can be updated, but they cannot be re-declared. <br>
+
+        <span class="font-bold text-2xl">c</span>onst variables are also block-scoped, but they cannot be updated at all
+        once they are declared. This makes them
+        a good choice for variables that should not be changed, such as constants or configuration values.
+    </p>
+
+
+
+
+    <h1 class="text-2xl font-bold m-6 p-2 border">Use cases of null and undefined:</h1>
+    <p class=" m-6 border p-2 text-black bg-slate-400 rounded shadow-xl">
+
+        The null and undefined values in JavaScript are used to represent the absence of a value. <br>
+
+        - Null is used to represent the intentional absence of a value. For example, you might use null to represent a
+        missing user in a database or a non-existent file. <br>
+        - Undefined is used to represent the unintentional absence of a value. For example, a variable might be
+        undefined
+        if it has not been assigned a value yet or if it has been deleted.
+    </p>
+
+
+
+
+    <h1 class="text-2xl font-bold m-6 p-2 border">What do you mean by REST API?</h1>
+    <p class=" m-6 border p-2 text-black bg-slate-400 rounded shadow-xl">
+
+        REST API stands for Representational State Transfer Application Programming Interface. It is an architectural
+        style for designing APIs (Application Programming Interfaces) that use HTTP requests to access and manipulate
+        data. REST APIs are widely used in the development of modern web applications and services. <br>
+
+        Here are some of the key features of REST APIs:  <br>
+
+        - They use HTTP methods to perform operations on resources, such as GET, POST, PUT, and DELETE.
+        <br>
+        - They use URIs (Uniform Resource Identifiers) to identify resources.
+        <br>
+        - They use JSON (JavaScript Object Notation) or XML (Extensible Markup Language) to encode data.
+        <br>
+        - They are stateless, which means that each request must contain all of the information necessary to process it.
+        <br>
+        REST APIs are a popular choice for developers because they are easy to understand and implement. They are also
+        scalable and reliable, making them ideal for use in large-scale applications.
+    </p>
+
+
+    <button><a href="index.html"><span class="ml-6 rounded p-1 text-2xl mr-6 mb-5 bg-slate-400 justify-end">BacK</span></a></button>
+
+
+
+
+
+
+    <script src="functions.js"></script>
+</body>
+
+</html>

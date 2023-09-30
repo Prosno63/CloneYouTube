@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="resources/Logo.png" type="image/x-icon">
+
+    <title>PH Tube</title>
+
+    <style></style>
+</head>
+
+<body>
+
+    <header>
+
+
+        
+
+
+        <div class="flex justify-around m-6 mr-6 gap-x-10 items-center  overflow-x-hidden">
+
+            <div><img class="w-36 h-8 lg:none" src="resources/Logo.png" alt=""></div>
+
+            <div><button id="sort-button"
+                    class="text-sm m-1 p-1 md:text-base lg:text-xl bg-slate-300 rounded-lg font-medium lg:m-2 lg:p-2 hover:bg-slate-200">Sort by
+                    Views</button></div>
+
+            <div><button id="blog-btn"
+                    class="text-base lg:text-xl bg-red-500 text-white rounded-lg font-semibold m-2 p-2 hover:bg-red-400">Blog </button>
+            </div>
+
+        </div>
+
+        <hr style="color: blue; border-style: double; margin-left: 24px ; margin-right: 24px;">
+
+
+
+
+    </header>
+
+    <nav>
+        <div class="tab-container overflow-x-hidden ">
+
+            <div class="tabs tabs p-5 ml-6 mr-6 text-center flex justify-center gap-4  overflow-x-hidden" id="tab-container">
+            </div>
+
+        </div>
+
+
+        <div id="card-container" class="grid grid-cols-1 md:grid md:grid-cols-2  lg:grid lg:grid-cols-4 gap-4 m-6  overflow-x-hidden">
+
+        </div>
+
+
+        <div id="message-container" class="hidden  overflow-x-hidden">
+
+
+
+        </div>
+
+
+
+
+    </nav>
+    <main>
+
+    </main>
+
+    <script src="functions.js"></script>
+</body>
+
+</html>
